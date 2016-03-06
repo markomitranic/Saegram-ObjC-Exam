@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		2E31164D1C8255FE00A7EFC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E31164C1C8255FE00A7EFC4 /* main.m */; };
 		2E3116501C8255FE00A7EFC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E31164F1C8255FE00A7EFC4 /* AppDelegate.m */; };
-		2E3116531C8255FE00A7EFC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3116521C8255FE00A7EFC4 /* ViewController.m */; };
 		2E3116561C8255FE00A7EFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3116541C8255FE00A7EFC4 /* Main.storyboard */; };
 		2E3116581C8255FE00A7EFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3116571C8255FE00A7EFC4 /* Assets.xcassets */; };
 		2E31165B1C8255FE00A7EFC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3116591C8255FE00A7EFC4 /* LaunchScreen.storyboard */; };
+		2E3116671C825C8C00A7EFC4 /* DashboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3116661C825C8C00A7EFC4 /* DashboardTableViewController.m */; };
+		2E31166A1C83164200A7EFC4 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3116681C83164200A7EFC4 /* image1.png */; };
+		2E31166B1C83164200A7EFC4 /* avatar1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E3116691C83164200A7EFC4 /* avatar1.jpg */; };
+		2E31166D1C835E5E00A7EFC4 /* sae_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E31166C1C835E5E00A7EFC4 /* sae_logo.png */; };
+		2E493D1F1C88DA7F004D3A42 /* searchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E493D1E1C88DA7F004D3A42 /* searchCollectionViewController.m */; };
+		2E493D221C88DF7C004D3A42 /* searchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E493D211C88DF7C004D3A42 /* searchResultsViewController.m */; };
+		2E493D2D1C88EC17004D3A42 /* objective-searching.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E493D2C1C88EC17004D3A42 /* objective-searching.png */; };
+		2E493D301C88EC2A004D3A42 /* handshake.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E493D2E1C88EC2A004D3A42 /* handshake.png */; };
+		2E493D311C88EC2A004D3A42 /* labyrinth-and-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E493D2F1C88EC2A004D3A42 /* labyrinth-and-arrow.png */; };
+		2E493D331C88ECC3004D3A42 /* identity-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E493D321C88ECC3004D3A42 /* identity-card.png */; };
+		2E493D351C88EE92004D3A42 /* nicoProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E493D341C88EE92004D3A42 /* nicoProfile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,24 @@
 		2E31164C1C8255FE00A7EFC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E31164E1C8255FE00A7EFC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E31164F1C8255FE00A7EFC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E3116511C8255FE00A7EFC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E3116521C8255FE00A7EFC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2E3116551C8255FE00A7EFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E3116571C8255FE00A7EFC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E31165A1C8255FE00A7EFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E31165C1C8255FE00A7EFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3116651C825C8C00A7EFC4 /* DashboardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardTableViewController.h; sourceTree = "<group>"; };
+		2E3116661C825C8C00A7EFC4 /* DashboardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardTableViewController.m; sourceTree = "<group>"; };
+		2E3116681C83164200A7EFC4 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		2E3116691C83164200A7EFC4 /* avatar1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar1.jpg; sourceTree = "<group>"; };
+		2E31166C1C835E5E00A7EFC4 /* sae_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sae_logo.png; sourceTree = "<group>"; };
+		2E493D1D1C88DA7F004D3A42 /* searchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchCollectionViewController.h; sourceTree = "<group>"; };
+		2E493D1E1C88DA7F004D3A42 /* searchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchCollectionViewController.m; sourceTree = "<group>"; };
+		2E493D201C88DF7C004D3A42 /* searchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchResultsViewController.h; sourceTree = "<group>"; };
+		2E493D211C88DF7C004D3A42 /* searchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchResultsViewController.m; sourceTree = "<group>"; };
+		2E493D2C1C88EC17004D3A42 /* objective-searching.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "objective-searching.png"; sourceTree = "<group>"; };
+		2E493D2E1C88EC2A004D3A42 /* handshake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handshake.png; sourceTree = "<group>"; };
+		2E493D2F1C88EC2A004D3A42 /* labyrinth-and-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "labyrinth-and-arrow.png"; sourceTree = "<group>"; };
+		2E493D321C88ECC3004D3A42 /* identity-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "identity-card.png"; sourceTree = "<group>"; };
+		2E493D341C88EE92004D3A42 /* nicoProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoProfile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +82,13 @@
 			children = (
 				2E31164E1C8255FE00A7EFC4 /* AppDelegate.h */,
 				2E31164F1C8255FE00A7EFC4 /* AppDelegate.m */,
-				2E3116511C8255FE00A7EFC4 /* ViewController.h */,
-				2E3116521C8255FE00A7EFC4 /* ViewController.m */,
+				2E3116651C825C8C00A7EFC4 /* DashboardTableViewController.h */,
+				2E3116661C825C8C00A7EFC4 /* DashboardTableViewController.m */,
+				2E493D1D1C88DA7F004D3A42 /* searchCollectionViewController.h */,
+				2E493D1E1C88DA7F004D3A42 /* searchCollectionViewController.m */,
 				2E3116541C8255FE00A7EFC4 /* Main.storyboard */,
+				2E493D201C88DF7C004D3A42 /* searchResultsViewController.h */,
+				2E493D211C88DF7C004D3A42 /* searchResultsViewController.m */,
 				2E3116571C8255FE00A7EFC4 /* Assets.xcassets */,
 				2E3116591C8255FE00A7EFC4 /* LaunchScreen.storyboard */,
 				2E31165C1C8255FE00A7EFC4 /* Info.plist */,
@@ -74,9 +100,25 @@
 		2E31164B1C8255FE00A7EFC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E493D2B1C88E9E0004D3A42 /* tabViewIcons */,
+				2E3116681C83164200A7EFC4 /* image1.png */,
+				2E31166C1C835E5E00A7EFC4 /* sae_logo.png */,
+				2E493D341C88EE92004D3A42 /* nicoProfile.png */,
+				2E3116691C83164200A7EFC4 /* avatar1.jpg */,
 				2E31164C1C8255FE00A7EFC4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E493D2B1C88E9E0004D3A42 /* tabViewIcons */ = {
+			isa = PBXGroup;
+			children = (
+				2E493D2E1C88EC2A004D3A42 /* handshake.png */,
+				2E493D321C88ECC3004D3A42 /* identity-card.png */,
+				2E493D2F1C88EC2A004D3A42 /* labyrinth-and-arrow.png */,
+				2E493D2C1C88EC17004D3A42 /* objective-searching.png */,
+			);
+			name = tabViewIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +179,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E31166D1C835E5E00A7EFC4 /* sae_logo.png in Resources */,
+				2E493D311C88EC2A004D3A42 /* labyrinth-and-arrow.png in Resources */,
 				2E31165B1C8255FE00A7EFC4 /* LaunchScreen.storyboard in Resources */,
+				2E493D351C88EE92004D3A42 /* nicoProfile.png in Resources */,
 				2E3116581C8255FE00A7EFC4 /* Assets.xcassets in Resources */,
 				2E3116561C8255FE00A7EFC4 /* Main.storyboard in Resources */,
+				2E31166A1C83164200A7EFC4 /* image1.png in Resources */,
+				2E31166B1C83164200A7EFC4 /* avatar1.jpg in Resources */,
+				2E493D2D1C88EC17004D3A42 /* objective-searching.png in Resources */,
+				2E493D301C88EC2A004D3A42 /* handshake.png in Resources */,
+				2E493D331C88ECC3004D3A42 /* identity-card.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +200,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E3116531C8255FE00A7EFC4 /* ViewController.m in Sources */,
+				2E493D1F1C88DA7F004D3A42 /* searchCollectionViewController.m in Sources */,
 				2E3116501C8255FE00A7EFC4 /* AppDelegate.m in Sources */,
+				2E493D221C88DF7C004D3A42 /* searchResultsViewController.m in Sources */,
+				2E3116671C825C8C00A7EFC4 /* DashboardTableViewController.m in Sources */,
 				2E31164D1C8255FE00A7EFC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +351,7 @@
 				2E3116611C8255FE00A7EFC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

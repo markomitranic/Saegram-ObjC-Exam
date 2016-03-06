@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +15,79 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saegram" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isg-HW-QQZ">
+                                <rect key="frame" x="0.0" y="80" width="320" height="70"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="jec-7c-5Y8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Belgrade 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lco-Tu-8BH">
+                                <rect key="frame" x="0.0" y="488" width="320" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="9ag-0G-GG3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAE Institute of Technology" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2h-wN-e5o">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="iIP-Eh-GwL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sae_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qob-Ss-Lw8">
+                                <rect key="frame" x="0.0" y="160" width="320" height="333"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Qob-Ss-Lw8" secondAttribute="height" multiplier="320:333" id="7OE-CV-Ym7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qob-Ss-Lw8" firstAttribute="top" secondItem="Isg-HW-QQZ" secondAttribute="bottom" constant="10" id="0hh-1O-Ray"/>
+                            <constraint firstItem="I2h-wN-e5o" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="2mk-lu-BE8"/>
+                            <constraint firstItem="Isg-HW-QQZ" firstAttribute="top" secondItem="I2h-wN-e5o" secondAttribute="bottom" id="GJk-Zz-DKM"/>
+                            <constraint firstItem="Isg-HW-QQZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="HQt-Ip-opI"/>
+                            <constraint firstItem="Qob-Ss-Lw8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="KLj-dU-Off"/>
+                            <constraint firstItem="I2h-wN-e5o" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KvM-d9-Pro"/>
+                            <constraint firstItem="lco-Tu-8BH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="RLl-oC-NaV"/>
+                            <constraint firstAttribute="trailing" secondItem="Qob-Ss-Lw8" secondAttribute="trailing" id="Rjk-vT-D6B"/>
+                            <constraint firstItem="I2h-wN-e5o" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="20" id="Uhp-6k-sU8"/>
+                            <constraint firstAttribute="trailing" secondItem="Isg-HW-QQZ" secondAttribute="trailing" id="Zr1-0b-BmC"/>
+                            <constraint firstItem="I2h-wN-e5o" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="gHI-HQ-v98"/>
+                            <constraint firstAttribute="trailing" secondItem="I2h-wN-e5o" secondAttribute="trailing" id="oqo-4b-DNX"/>
+                            <constraint firstAttribute="trailing" secondItem="lco-Tu-8BH" secondAttribute="trailing" id="qQv-nd-Ddz"/>
+                            <constraint firstAttribute="bottom" secondItem="lco-Tu-8BH" secondAttribute="bottom" id="u9h-DX-8jz"/>
+                            <constraint firstAttribute="trailing" secondItem="I2h-wN-e5o" secondAttribute="trailing" id="zro-yG-i4b"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2mk-lu-BE8"/>
+                                <exclude reference="Uhp-6k-sU8"/>
+                                <exclude reference="oqo-4b-DNX"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sae_logo.png" width="410" height="416"/>
+    </resources>
 </document>

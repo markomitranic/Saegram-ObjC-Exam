@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DashboardTableViewController.h
 //  Saegram
 //
 //  Created by Marko Mitranić on 2/27/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DashboardTableViewController : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *username;
 
 @end
-
